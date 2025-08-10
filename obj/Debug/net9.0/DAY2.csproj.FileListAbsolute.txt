@@ -1,0 +1,14 @@
+E:\JENKINS2\DAY2\bin\Debug\net9.0\DAY2.exe
+E:\JENKINS2\DAY2\bin\Debug\net9.0\DAY2.deps.json
+E:\JENKINS2\DAY2\bin\Debug\net9.0\DAY2.runtimeconfig.json
+E:\JENKINS2\DAY2\bin\Debug\net9.0\DAY2.dll
+E:\JENKINS2\DAY2\bin\Debug\net9.0\DAY2.pdb
+E:\JENKINS2\DAY2\obj\Debug\net9.0\DAY2.GeneratedMSBuildEditorConfig.editorconfig
+E:\JENKINS2\DAY2\obj\Debug\net9.0\DAY2.AssemblyInfoInputs.cache
+E:\JENKINS2\DAY2\obj\Debug\net9.0\DAY2.AssemblyInfo.cs
+E:\JENKINS2\DAY2\obj\Debug\net9.0\DAY2.csproj.CoreCompileInputs.cache
+E:\JENKINS2\DAY2\obj\Debug\net9.0\DAY2.dll
+E:\JENKINS2\DAY2\obj\Debug\net9.0\refint\DAY2.dll
+E:\JENKINS2\DAY2\obj\Debug\net9.0\DAY2.pdb
+E:\JENKINS2\DAY2\obj\Debug\net9.0\DAY2.genruntimeconfig.cache
+E:\JENKINS2\DAY2\obj\Debug\net9.0\ref\DAY2.dll
