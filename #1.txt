@@ -1,0 +1,39 @@
+Started by user Bright A
+Running as SYSTEM
+Building in workspace E:\JENKINS2\Jenkins_home\workspace\WelcomeRepoApp
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/fulldrill/welrepo.git
+ > git.exe init E:\JENKINS2\Jenkins_home\workspace\WelcomeRepoApp # timeout=10
+Fetching upstream changes from https://github.com/fulldrill/welrepo.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.50.1.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/fulldrill/welrepo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/fulldrill/welrepo.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 661a2ec7f1417434de55f774672ef52ba8f54589 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 661a2ec7f1417434de55f774672ef52ba8f54589 # timeout=10
+Commit message: " Initial commit"
+First time build. Skipping changelog.
+[WelcomeRepoApp] $ cmd /c call C:\Users\PHRENCH\AppData\Local\Temp\jenkins1665072239424364003.bat
+
+E:\JENKINS2\Jenkins_home\workspace\WelcomeRepoApp>dotnet build 
+  Determining projects to restore...
+  Restored E:\JENKINS2\Jenkins_home\workspace\WelcomeRepoApp\DAY2.csproj (in 103 ms).
+  DAY2 -> E:\JENKINS2\Jenkins_home\workspace\WelcomeRepoApp\bin\Debug\net9.0\DAY2.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.68
+
+E:\JENKINS2\Jenkins_home\workspace\WelcomeRepoApp>dotnet run 
+Welcome to C#, Jenkins Github lab
+
+E:\JENKINS2\Jenkins_home\workspace\WelcomeRepoApp>exit 0 
+Finished: SUCCESS
